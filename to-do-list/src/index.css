@@ -1,0 +1,81 @@
+body{
+    background-color: #1d1b1d;
+}
+
+.to-do-list{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button{
+    background-color: #5dd260;
+}
+.add-button:hover{
+    background-color: #47b24c;
+}
+
+.delete-button{
+    background-color: #f03510;
+}
+.delete-button:hover{
+    background-color: #c42a0b;
+}
+
+.move-button{
+    background-color: rgba(86, 173, 248, 0.35);
+}
+.move-button:hover{
+    background-color: #e1f2fd;
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid #777577;
+    color: #121110;
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #f5f7f5;
+    margin-bottom: 10px;
+    border: 3px solid #adacad;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
+
+.delete-button,
+.move-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
